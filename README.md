@@ -47,6 +47,6 @@
 
 ### Gitee Pages
 
-- [Gitee Pages 配置方法](Tools/GiteePages配置方法)
+- [GitHub Pages 配置方法](Tools/GitHubPages配置方法)
 - [Markdown 常用语法](Tools/Markdown常用语法.md)
 - [LaTeX 常用语法](Tools/LaTeX常用语法.md)

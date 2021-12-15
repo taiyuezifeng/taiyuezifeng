@@ -50,3 +50,8 @@
 - [GitHub Pages 配置方法](Tools/GitHubPages配置方法)
 - [Markdown 常用语法](Tools/Markdown常用语法.md)
 - [LaTeX 常用语法](Tools/LaTeX常用语法.md)
+
+### Emacs
+
+- [Emacs基本配置](Tools/Emacs.md)
+- [Emacs配置Java开发环境](Tools/Emacs配置Java开发环境.md)

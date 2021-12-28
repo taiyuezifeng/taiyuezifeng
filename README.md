@@ -55,3 +55,7 @@
 
 - [Emacs基本配置](Tools/Emacs.md)
 - [Emacs配置Java开发环境](Tools/Emacs配置Java开发环境.md)
+
+### Linux
+
+- [Manjaro安装配置](Tools/Manjaro安装配置.md)

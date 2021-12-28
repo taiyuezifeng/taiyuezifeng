@@ -59,3 +59,9 @@
 ### Linux
 
 - [Manjaro安装配置](Tools/Manjaro安装配置.md)
+
+### Mac
+
+- [Mac下烧录镜像文件](Tools/Mac下烧录镜像文件.md)
+
+- [Mac 下安装xrdp服务](Tools/Mac 下安装xrdp服务.md)

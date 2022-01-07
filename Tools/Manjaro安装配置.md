@@ -268,4 +268,59 @@
   
   - 创建一个桌面快捷方式
 
+- 安装字体
+  
+  ```shell
+  # 下载要安装的字体到custom-fonts中
+  # 复制到/usr/share/fonts下
+  sudo cp -r custom-fonts /usr/share/fonts/custom-fonts
+  # 查看已安装的字体
+  fc-list
+  # 查看已安装的中文字体
+  fc-list :lang=zh
+  # 重建字体索引，更新字体缓存
+  sudo mkfontscale # 注：好像非必需
+  sudo mkfontdir # 注：好像非必需
+  sudo fc-cache -fv
+  # 重新登录后生效
+  ```
+
+- 安装截图工具`flameshot`
+  
+  - 安装
+    
+    ```shell
+    # 官方GitHub安装方法
+    pacman -S flameshot # 注：我这里找不到
+    # 使用yay安装
+    yay -S flameshot
+    ```
+  
+  - 配置
+    
+    - 贴图绑定F3
+    
+    - 截图绑定F1
+      
+      - 1. Go to `Keyboard` settings
+        
+        2. Switch to the tab `Application Shortcuts`
+        
+        3. Add new entry `flameshot gui` binding `F1`
+
+- 安装`Edge`
+  
+  - 安装
+    
+    ```shell
+    yay -S microsoft-edge-stable-bin
+    # yay -S google-chrome # 安装Chrome
+    ```
+  
+  - 配置
+    
+    - 禁止跟踪
+    
+    - 清除浏览记录
+
 - 

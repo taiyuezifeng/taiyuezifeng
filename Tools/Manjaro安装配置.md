@@ -8,6 +8,14 @@
 
 ## 配置
 
+- 切换源
+  
+  ```shell
+  # 列出国内的镜像源
+  sudo pacman-mirrors -i -c China -m rank
+  # 选择自己想要使用的源（推荐使用华为源）
+  ```
+
 - 安装git
   
   - 略（系统默认已安装）
@@ -266,8 +274,16 @@
 - WPS
   
   ```shell
-  # 安装WPS
+  # 安装WS
   yay -S wps-office-cn
+  # 安装WPS缺失字体
+  # 下载wps_symbol_fonts.zip并解压到/usr/share/fonts/wps-office中
+  sudo mv *.ttf /usr/share/fonts/wps-office/
+  cd /usr/share/fonts/wps-office
+  sudo chmod 644 *.ttf
+  sudo mkfontdir
+  sudo mkfontscale
+  sudo fc-cache -fv
   ```
 
 - MarkText
@@ -323,7 +339,7 @@
     
     - 截图绑定F1
       
-      - 1. Go to `Keyboard` settings
+        1. Go to `Keyboard` settings
         
         2. Switch to the tab `Application Shortcuts`
         
@@ -343,5 +359,13 @@
     - 禁止跟踪
     
     - 清除浏览记录
+
+- 配置锁屏快捷键
+
+    1. Go to `Keyboard` settings（打开`设置`中的`键盘`）
+
+    2. Switch to the tab `Application Shortcuts`（选中`应用程序快捷键`）
+
+    3. Modify `xflock4` binding `Super+L`（双击修改`xflock4`的快捷键为`Win+L`）
 
 - 

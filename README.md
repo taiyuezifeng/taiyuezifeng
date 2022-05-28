@@ -41,6 +41,14 @@
 
 <br>
 
+### MySQL
+
+- [MySQL修改密码与远程访问配置](MySQL/MySQL修改密码与远程访问配置.md)
+
+### CSS
+
+- [CSS实现固定宽高比](CSS/CSS实现固定宽高比.md)
+
 ### 图床
 
 - [PicGo + Gitee 图床配置方法](Tools/PicGo+Gitee图床配置方法.md)
@@ -60,6 +68,7 @@
 
 - [Manjaro安装配置](Tools/Manjaro安装配置.md)
 - [Manjaro美化Mac主题](Tools/Manjaro美化Mac主题.md)
+- [Linux中Nginx403问题](Tools/Linux中Nginx出现403问题排查.md)
 
 ### Mac
 
